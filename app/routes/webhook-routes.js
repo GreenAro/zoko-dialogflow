@@ -1,5 +1,5 @@
 const Router = require("koa-router");
-const tyntecMessageController = require("../controllers/webhook-tyntec");
+const tyntecMessageController = require("../controllers/webhook");
 
 const router = new Router();
 
