@@ -11,7 +11,7 @@ const df_private_key = process.env.ZOKO_DIALOGFLOW_PRIVATE_KEY;
 const indianRailUrl = process.env.ZOKO_INDIANRAIL_URL;
 const indianRailApiKey = process.env.ZOKO_INDIANRAIL_API_KEY;
 
-exports.getIntent = async requestBody => {
+exports.getIntent = async (requestBody) => {
   console.log("request body ", requestBody);
   const { text, customer } = requestBody;
   const sessionId = !!customer ? customer.id : requestBody.platformSenderId;
@@ -21,8 +21,8 @@ exports.getIntent = async requestBody => {
   const config = {
     credentials: {
       private_key: private_key,
-      client_email: df_client_email
-    }
+      client_email: df_client_email,
+    },
   };
 
   const sessionClient = new dialogflow.SessionsClient(config);
@@ -34,14 +34,24 @@ exports.getIntent = async requestBody => {
     queryInput: {
       text: {
         text: text,
-        languageCode: "en-US"
-      }
-    }
+        languageCode: "en-US",
+      },
+    },
   };
   const responses = await sessionClient.detectIntent(request);
   const result = responses[0].queryResult;
+  console.log(`  Get Intent Response : ${JSON.stringify(responses)}`);
+  console.log(
+    `  Get Intent Response [0] : ${JSON.stringify(responses[0].queryResult)}`
+  );
   console.log(`  Query Params: ${JSON.stringify(result.parameters)}`);
 
+  return result;
+};
+
+exports.sendSimpleReply = async (intent) => {};
+
+exports.sendReply = async (result) => {
   if (result) {
     const train =
       !!result.parameters &&
@@ -51,7 +61,7 @@ exports.getIntent = async requestBody => {
         : 0;
 
     const headers = {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
     };
 
     const today = moment(new Date()).format("YYYYMMDD");
@@ -63,7 +73,7 @@ exports.getIntent = async requestBody => {
     await axios({
       method: "get",
       url,
-      headers
+      headers,
     })
       .then(function(response) {
         console.log(

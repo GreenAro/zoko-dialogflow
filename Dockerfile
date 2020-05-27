@@ -9,7 +9,7 @@
 #
 
 ### BASE
-FROM node:10.17.0-alpine AS base
+FROM node:12.14.1-alpine as base
 LABEL maintainer "Zoko"
 # Set the working directory
 WORKDIR /app
