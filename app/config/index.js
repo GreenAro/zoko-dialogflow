@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 
-const env = process.env.NODE_ENV || "development";
+const env = process.env.NODE_ENV || "production";
 
 // Load environment variables from .env file
 if (env === "development") {

@@ -257,3 +257,72 @@
 2019-12-11T07:45:38.751Z : Node ENV : development
 2020-05-05T04:09:51.940Z : API server listening on 0.0.0.0:7070, in development
 2020-05-05T04:09:51.946Z : Node ENV : undefined
+2020-05-05T04:28:47.693Z : API server listening on 0.0.0.0:7070, in development
+2020-05-05T04:28:47.699Z : Node ENV : undefined
+2020-05-05T04:36:46.925Z : API server listening on 0.0.0.0:7070, in development
+2020-05-05T04:36:46.929Z : Node ENV : undefined
+2020-05-05T04:48:23.709Z : API server listening on 0.0.0.0:7070, in development
+2020-05-05T04:48:23.713Z : Node ENV : undefined
+2020-05-05T04:50:19.290Z : API server listening on 0.0.0.0:7070, in development
+2020-05-05T04:50:19.294Z : Node ENV : undefined
+2020-05-05T04:54:00.674Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T04:54:00.678Z : Node ENV : undefined
+2020-05-05T04:58:24.978Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T04:58:24.982Z : Node ENV : undefined
+2020-05-05T04:58:35.983Z : Error Status => 400
+2020-05-05T04:58:35.984Z : Error Data => {"status":400,"type":"validation_error","message":"recipient cannot be empty","timestamp":1588654715977}
+2020-05-05T04:58:35.985Z : Error Response => {"server":"nginx/1.10.3","date":"Tue, 05 May 2020 04:58:35 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers"}
+2020-05-05T04:58:35.986Z : Error Config => {"transformRequest":{},"transformResponse":{},"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","apikey":"0f04c56a-d938-46b9-8983-43a0039de681","User-Agent":"axios/0.18.1","Content-Length":51},"method":"post","url":"https://test.chat.api.zoko.io/v2/message","data":"{\"channel\":\"whatsapp\",\"recipient\":\"\",\"type\":\"text\"}"}
+2020-05-05T04:59:30.341Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T04:59:30.345Z : Node ENV : undefined
+2020-05-05T04:59:37.075Z : Error Status => 400
+2020-05-05T04:59:37.076Z : Error Data => {"status":400,"type":"validation_error","message":"recipient cannot be empty","timestamp":1588654777039}
+2020-05-05T04:59:37.077Z : Error Response => {"server":"nginx/1.10.3","date":"Tue, 05 May 2020 04:59:37 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers"}
+2020-05-05T04:59:37.078Z : Error Config => {"transformRequest":{},"transformResponse":{},"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","apikey":"0f04c56a-d938-46b9-8983-43a0039de681","User-Agent":"axios/0.18.1","Content-Length":51},"method":"post","url":"https://test.chat.api.zoko.io/v2/message","data":"{\"channel\":\"whatsapp\",\"recipient\":\"\",\"type\":\"text\"}"}
+2020-05-05T05:00:07.040Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:00:07.044Z : Node ENV : undefined
+2020-05-05T05:00:34.766Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:00:34.775Z : Node ENV : undefined
+2020-05-05T05:22:10.504Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:22:10.510Z : Node ENV : undefined
+2020-05-05T05:22:17.020Z : Error Status => 400
+2020-05-05T05:22:17.021Z : Error Data => {"status":400,"type":"validation_error","message":"recipient cannot be empty","timestamp":1588656137048}
+2020-05-05T05:22:17.022Z : Error Response => {"server":"nginx/1.10.3","date":"Tue, 05 May 2020 05:22:17 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers"}
+2020-05-05T05:22:17.023Z : Error Config => {"transformRequest":{},"transformResponse":{},"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","apikey":"0f04c56a-d938-46b9-8983-43a0039de681","User-Agent":"axios/0.18.1","Content-Length":51},"method":"post","url":"https://test.chat.api.zoko.io/v2/message","data":"{\"channel\":\"whatsapp\",\"recipient\":\"\",\"type\":\"text\"}"}
+2020-05-05T05:29:10.059Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:29:10.063Z : Node ENV : undefined
+2020-05-05T05:29:14.712Z : Error Status => 400
+2020-05-05T05:29:14.713Z : Error Data => {"status":400,"type":"validation_error","message":"recipient cannot be empty","timestamp":1588656554680}
+2020-05-05T05:29:14.714Z : Error Response => {"server":"nginx/1.10.3","date":"Tue, 05 May 2020 05:29:14 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers"}
+2020-05-05T05:29:14.715Z : Error Config => {"transformRequest":{},"transformResponse":{},"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","apikey":"0f04c56a-d938-46b9-8983-43a0039de681","User-Agent":"axios/0.18.1","Content-Length":51},"method":"post","url":"https://test.chat.api.zoko.io/v2/message","data":"{\"channel\":\"whatsapp\",\"recipient\":\"\",\"type\":\"text\"}"}
+2020-05-05T05:30:50.607Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:30:50.611Z : Node ENV : undefined
+2020-05-05T05:30:56.098Z : Error Status => 400
+2020-05-05T05:30:56.099Z : Error Data => {"status":400,"type":"validation_error","message":"recipient cannot be empty","timestamp":1588656656125}
+2020-05-05T05:30:56.100Z : Error Response => {"server":"nginx/1.10.3","date":"Tue, 05 May 2020 05:30:56 GMT","content-type":"application/json","transfer-encoding":"chunked","connection":"close","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers"}
+2020-05-05T05:30:56.101Z : Error Config => {"transformRequest":{},"transformResponse":{},"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","apikey":"0f04c56a-d938-46b9-8983-43a0039de681","User-Agent":"axios/0.18.1","Content-Length":51},"method":"post","url":"https://test.chat.api.zoko.io/v2/message","data":"{\"channel\":\"whatsapp\",\"recipient\":\"\",\"type\":\"text\"}"}
+2020-05-05T05:31:22.395Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T05:31:22.399Z : Node ENV : undefined
+2020-05-05T05:31:28.941Z : [object Object]
+2020-05-05T10:13:34.756Z : [object Object]
+2020-05-05T10:22:28.784Z : [object Object]
+2020-05-05T10:24:39.080Z : [object Object]
+2020-05-05T10:46:22.932Z : API server listening on 0.0.0.0:8081, in production
+2020-05-05T10:46:22.936Z : Node ENV : undefined
+2020-05-05T10:46:35.610Z : [object Object]
+2020-05-10T10:15:40.774Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:15:40.779Z : Node ENV : undefined
+2020-05-10T10:18:14.336Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:18:14.340Z : Node ENV : undefined
+2020-05-10T10:19:17.798Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:19:17.803Z : Node ENV : undefined
+2020-05-10T10:19:42.545Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:19:42.550Z : Node ENV : undefined
+2020-05-10T10:21:04.676Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:21:04.681Z : Node ENV : undefined
+2020-05-10T10:21:31.191Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:21:31.198Z : Node ENV : undefined
+2020-05-10T10:24:05.962Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:24:05.966Z : Node ENV : undefined
+2020-05-10T10:25:05.969Z : API server listening on 0.0.0.0:8081, in production
+2020-05-10T10:25:05.973Z : Node ENV : undefined
